@@ -1,0 +1,127 @@
+/* General Page Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #a2d4f9, #cce7ff); /* sky blue gradient */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #064273;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+}
+
+/* Stats display */
+.stats {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #064273;
+    font-weight: 600;
+}
+
+/* Controls container */
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Button & Select styles */
+button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    background: linear-gradient(45deg, #6cc1ff, #3399ff);
+    color: #ffffff;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.1);
+}
+
+/* Filter Toggle Buttons */
+.filter-toggle {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background: #6cc1ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.filter-btn:hover {
+    background: rgba(255,255,255,0.9);
+}
+
+.filter-btn.active {
+    background: #3399ff; /* blue active */
+    color: rgb(255, 255, 255);
+}
+
+/* Table styles */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    backdrop-filter: blur(10px);
+    background: rgba(173, 216, 230, 0.4); /* light blue table */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background: rgba(100, 149, 237, 0.4); /* cornflower blue header */
+    color: #064273;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background: rgba(255,255,255,0.15);
+}
+
+/* Status badges */
+.status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.status.normal {
+    background: #33b5ff; /* soft blue */
+}
+
+.status.malicious {
+    background: #ff6b6b; /* light red for alert */
+}
+
+/* Hover row effect */
+tr:hover {
+    background: rgba(255,255,255,0.25);
+}

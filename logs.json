@@ -1,0 +1,12 @@
+[
+  {"ip": "192.168.1.88", "status": "MALICIOUS"},
+  {"ip": "192.168.1.138", "status": "MALICIOUS"},
+  {"ip": "192.168.1.204", "status": "NORMAL"},
+  {"ip": "192.168.1.25", "status": "MALICIOUS"},
+  {"ip": "192.168.1.231", "status": "NORMAL"},
+  {"ip": "192.168.1.174", "status": "NORMAL"},
+  {"ip": "192.168.1.68", "status": "MALICIOUS"},
+  {"ip": "192.168.1.30", "status": "NORMAL"},
+  {"ip": "192.168.1.98", "status": "NORMAL"},
+  {"ip": "192.168.1.220", "status": "NORMAL"}
+]
